@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div id="titulo1">
+      <h1>REGISTRO DE CLIENTES</h1>
+    </div>
+
+    <div id="formulario1">
+        <form action="procesar_registro.php" method="post">
+            <label for="cedula">Cedula</label><br/>
+            <input type="text" name="ID_CEDULA" id="cedula" required type="submit"><br/>
+
+            <label for="nombre">Nombre</label><br/>
+            <input type="text" name="NOMBRES" id="nombres" required type="submit"><br/>
+
+            <label for="apellido">Apellido</label><br/>
+            <input type="text" name="APELLIDOS" id="apellidos" required type="submit"><br/>
+
+            <label for="celular">Celular</label><br/>
+            <input type="text" name="CELULAR" id="celula" required type="submit"><br/>
+
+            <label for="correo">Correo</label><br/>
+            <input type="text" name="CORREO" id="correo" required type="submit"><br/>
+
+            <br/>
+            <button type="submit" class="boton">Registrarse</button>
+            <br/>
+    </div>
+    
+     
+</body>
+</html>
