@@ -1,5 +1,7 @@
 h1{
 text-align: center;
+justify-content: center;
+align-items: center;
 color: rgb(199, 69, 80);
 }
 
@@ -12,10 +14,10 @@ background-image: linear-gradient(to right, #1517b8, #f8f8f8);
 display:flex;
 justify-content: center;
 align-items: center;
-position: relative;
+position: absolute;
 align-content: center;
-padding: 10px;
-margin-left: 500px;
+padding: 20px;
+margin-left: 560px;
 margin-right: 500px;
 background-color: rgb(194, 39, 39);
 color: #000;
