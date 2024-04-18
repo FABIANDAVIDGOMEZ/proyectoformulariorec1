@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>formulario</title>
+    <link rel="icon" href="imagenes/imagen1.png" type="logo">
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
@@ -13,24 +14,27 @@
 
     <div id="formulario1">
         <form action="procesar_registro.php" method="post">
+
             <label for="cedula">Cedula</label><br/>
-            <input type="text" name="ID_CEDULA" id="cedula" required type="submit"><br/>
+            <input type="text" name="ID_CEDULA" id="cedula" required type="submit" placeholder=" Ingrese su cedula"><br/>
 
-            <label for="nombre">Nombre</label><br/>
-            <input type="text" name="NOMBRES" id="nombres" required type="submit"><br/>
+            <label for="nombre">Nombres</label><br/>
+            <input type="text" name="NOMBRES" id="nombres" placeholder=" Ingrese sus nombres"required type="submit"><br/>
 
-            <label for="apellido">Apellido</label><br/>
-            <input type="text" name="APELLIDOS" id="apellidos" required type="submit"><br/>
+            <label for="apellido">Apellidos</label><br/>
+            <input type="text" name="APELLIDOS" id="apellidos" required type="submit" placeholder=" Ingrese sus apellidos"><br/>
 
             <label for="celular">Celular</label><br/>
-            <input type="text" name="CELULAR" id="celula" required type="submit"><br/>
+            <input type="text" name="CELULAR" id="celula" required type="submit" placeholder=" Ingrese su celular"><br/>
 
-            <label for="correo">Correo</label><br/>
-            <input type="text" name="CORREO" id="correo" required type="submit"><br/>
+            <label for="correo">Correo Electronico</label><br/>
+            <input type="text" name="CORREO" id="correo" required type="submit" placeholder=" Ingrese su correo"><br/>
 
             <br/>
             <button type="submit" class="boton">Registrarse</button>
             <br/>
+        </form>
+
     </div>
     
      
